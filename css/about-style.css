@@ -1,0 +1,47 @@
+
+.about-bakery {
+    margin: 0;
+    background-image: url(../Images/chef2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-bakery .row-carousel-caption {
+    margin-top: 140px;
+}
+
+.about-bakery .row-carousel-caption h5 p {
+    color: #142d1f;
+}
+
+.about-bakery .testimonial-card {
+    margin-left: 100px;
+}
+.row-carousel-about {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-cards {
+    top: 0.75rem;
+    bottom: 0;
+}
+
+.carousel {
+    background-image: url(../Images/about-bg-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-inner img {
+    padding: 2rem;
+}
+
+.carousel-inner .card {
+    margin: 1rem;
+    border-radius: 5px;
+    color: black;
+} 
+

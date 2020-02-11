@@ -1,0 +1,123 @@
+.gallery-category {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1%;
+    position: relative;
+    margin: 1rem;
+
+}
+
+.gallery-category .dining-spaces {
+    background-image: url(../Images/gallery1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+}
+
+.gallery-category .our-dishes {
+    background-image: url(../Images/gallery2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+}
+
+.gallery-category .our-team {
+    background-image: url(../Images/gallery3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+}
+
+.gallery-category a {
+    text-decoration: none;
+}
+
+.gallery-category-content{
+    align-items: center;
+}
+
+.dining-spaces .gallery-category-content {
+    color: #f1e7df;
+}
+.our-dishes .gallery-category-content {
+    color: #ff3e80;
+}
+.our-team .gallery-category-content {
+    color: #c1784a;
+}
+
+.middle-container {
+    background-image: url(../Images/gallery-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery-category-content h3 {
+    padding-top: 18rem;
+}
+
+.card-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1%;
+    margin: 1.75%;
+} 
+
+.gallery-content img {
+    width: 28rem;
+    height: 27rem;
+}
+
+h2, .gallery-content h3 {
+    text-align: center;
+    padding: 0;
+}
+
+h2 {
+    padding: 1rem;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+}
+
+
+
+@media(max-width: 500px) {
+
+    .gallery-category {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1%;
+        position: relative;
+        margin: 1rem;
+    
+    }
+
+    .card-group {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1%;
+        margin: 1.75%;
+        position: relative;
+    }
+
+    /* .card-group .card {
+        width: 100%;
+    } */
+}
+
+.middle-container nav a {
+    padding-top: 1rem;
+}

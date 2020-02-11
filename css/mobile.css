@@ -1,0 +1,125 @@
+/* Smartphones */
+
+@media(max-width: 500px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar h1 {
+        margin-bottom: 0.75rem;
+    }
+
+    .nav-bar ul li a {
+        padding: 0.15rem;
+        margin: 0.15rem;
+    }
+
+    .showcase-content {
+        text-align: center;
+    }
+
+    .home-cards {
+        flex-direction: column;
+        bottom: 0;
+    }
+    
+    .home-cards .card-body .card-title,
+    .home-cards .card-body .card-title {
+        text-align: center;
+    }
+
+    .non-veg, .veg {
+        flex-direction: column;
+    }
+
+    .non-veg .card {
+        width: 18rem;
+        margin: 1rem auto;
+    }
+
+    .veg .card {
+        width: 18rem;
+        margin: 1rem auto;
+        
+    }
+
+    .veg .card .menu-card-btn,
+    .non-veg .card .menu-card-btn {
+        text-align: center;
+    }
+
+    .today-menu .accordion {
+        text-align: center;
+    }
+
+    .today-menu .accordion .card-body {
+        padding: 0;
+    }
+
+    .today-menu .accordion .card-body .row {
+        display: flex;
+        flex-direction: column;
+        margin: 0.1rem;
+    }
+
+    .today-menu .accordion .card-body .row .col-4 {
+        display: flex;
+        padding: 0;
+    }
+
+    .today-menu .accordion .card-body .row .col-4 .list-group {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 1rem;
+    }
+
+    .today-menu .accordion .card-body .row .col-4 .list-group a {
+        padding: 0.8rem;
+        margin: auto;
+    }
+    .today-menu .accordion .card-body .tab-content {
+        display: none;
+    }
+
+    .btn-mobile {
+        display: none;
+    } 
+    
+    
+    .home-cards .card {
+        width: 18rem;
+        margin: 1rem auto;
+    }
+
+    /* Map section */
+
+    .Address-map {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #map-container-google-8 {
+        width: 100%;
+    }
+
+    /* About Us */
+
+    .about-us .carousel-inner {
+        padding: 0;
+    }
+
+    /* Gallery */
+
+    .our-team-conten .gallery-card {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(min-width: 350px) {
+    .today-menu .accordion .card .collapse {
+        margin: 0.5rem 2.5rem;
+    }
+}

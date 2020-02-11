@@ -1,0 +1,88 @@
+ /* Contact Us */
+ .email-map {
+    padding: 20px;
+ }
+ .address-heading {
+     text-align: center;
+ }
+
+ .middle-container .email-map {
+    background-image: url(../Images/contact-bg-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+ }
+ .address-heading {
+     text-align: center;
+ }
+
+ .contact-details .headquarter,
+ .contact-details .ring-fax,
+ .contact-details .email {
+    border: gray 1px solid;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+ }
+
+ .contact-details li {
+     color: white;
+     background-color: black;
+ }
+
+ .middle-container .message-row {
+     margin-top: 20px;
+ }
+
+ .middle-container .Address-map-address .btn {
+     background-color: #142d1f;
+     color: #fff;
+ }
+
+ .middle-container .Address-map-address .btn:hover:hover {
+      background-color: #28a745;
+  }
+ iframe {
+     width: 100%;
+     height: 515px;
+ }
+
+ .card {
+     margin: 10px 10px;
+ }
+
+ .card:hover {
+     -webkit-box-shadow: -1px 9px 40px -12px rgb(0,0,0,0.75);
+     -moz-box-shadow: -1px 9px 40px -12px rgb(0,0,0,0.75);
+     box-shadow: -1px 9px 40px -12px rgb(0,0,0,0.75);
+ }
+
+ iframe:hover {
+    -webkit-box-shadow: -1px 9px 40px -12px rgb(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgb(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgb(0,0,0,0.75);
+}
+
+.Address-map {
+    display: flex;
+    margin: 1rem 4rem;
+}
+
+.Address-map .contact-details {
+    flex: 1;
+}
+
+.Address-map .contact-map {
+    flex: 3;
+    margin: auto;
+}
+
+.Address-map .contact-map .googleMap {
+    margin: 3rem auto 0 auto;
+}
+
+.Address-map .contact-map .googleMap .map-container-5 {
+    width: 100vh;
+}
+

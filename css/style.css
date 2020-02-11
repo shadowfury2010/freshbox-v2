@@ -1,0 +1,288 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main Styling */
+
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1,h2,h3 {
+    padding-bottom:20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Utilities */
+
+
+.container-fluid {
+    width: 100%;
+    padding: 0;
+}
+.top-container {
+    padding: 0;
+}
+
+.primary-heading {
+    color: #00fd39 ;
+}
+
+.l-heading {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+/* Nav bar */
+
+.nav-bar{
+    background:#0a1920;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 0.5rem;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+}
+
+.nav-bar ul li a {
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+    border: 2px solid #142d1f;
+    border-radius: 5px;
+}
+
+.nav-bar ul li a:hover {
+    background: #28a745;
+    color:#0a1920;
+    text-decoration: none;
+}
+
+.nav-bar h1 {
+    padding: 0.25rem;
+    border: 2px solid #142d1f;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.nav-bar h1 a {
+    color: #fff;
+}
+
+.nav-bar h1 a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.active-nav {
+    background: #28a745;
+    color:#0a1920;
+    text-decoration: none;
+    
+}
+
+
+/* Showcase */
+
+.showcase {
+    background: #333 url(../Images/banner.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+.showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.showcase-content .btn-success {
+    margin:.375rem;
+}
+
+.showcase-content .btn-success:hover {
+    background: #28a745;
+    color:#0a1920;
+    text-decoration: none;
+}
+
+/* middle container */
+
+.home-cards {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 50px;
+}
+
+.home-cards .card {
+    width: 23rem;
+}
+
+.card-btn {
+    text-align: center;
+}
+
+.home-cards .btn {
+    background: #1f582c;
+    color: #fff;
+}
+
+.middle-container .home-cards .card-body .card-btn a:hover {
+    background: #28a745;
+    color: #fff;
+}
+
+.carousel-inner {
+    background-image: url(../Images/veggy-c.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .testimonials .testimonial-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.carousel-inner {
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
+}
+
+.carousel-caption h2 {
+    color: #9ade8e;
+}
+
+/* Footer */
+.bottom-container {
+    background-color:#142d1f;
+    color:white;
+    text-align: center;
+}
+.main-footer p {
+    margin: 0;
+    padding: 1.1rem;
+}
+
+.main-footer .social {
+    padding: 15px 0 0 0;
+}
+
+.main-footer .social .social-icon {
+    margin-left: 5px;
+}
+.main-footer .social .social-icon:hover {
+    cursor: pointer;
+}
+
+/* Menu Page */
+.chef-spl{
+    background-image: url(../Images/today-menu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.chef-spl h2 {
+    color: #254a2c;
+}
+
+.non-veg {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.veg {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.dish {
+    text-align: center;
+    color: #0a1920;
+    padding: 1rem;
+}
+
+.non-veg .card {
+    width: 23rem;
+}
+
+.veg .card {
+    width: 23rem;
+}
+
+.today-menu .accordion{
+    background-image:url(../Images/menu-bg-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.today-menu .accordion .list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #142d1f;
+    border-color: #212529;
+}
+
+ .menu-footer {
+    background-color:#142d1f;
+    color:white;
+    text-align: center;
+ }
+
+ .today-menu h2 {
+     color: #19431a;
+ }
+ .pink-text {
+    color: #19431a !important;
+ }
+
+ .btn-test {
+    color: #ffffff;
+    background-color: #113a08;
+ }
+
+ .btn-mobile {
+     display: none;
+ }
+
+ /* Contact Us */
+
+ 
+ 

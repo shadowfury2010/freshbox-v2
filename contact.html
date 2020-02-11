@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery-3.4.1.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f54240c077.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f54240c077.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact-style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <title>Freshbox-Contact Us</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="top-container container-fluid">
+         <!-- Nav Bar -->
+         <section>
+          <nav>
+            <div class="nav-bar">
+              <h1 class="logo"> <a href="index.html"> <span class="primary-heading"><i class="fas fa-utensils"></i>Fresh</span>Box</a></h1>
+              </a>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About Us.html">About</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a class="active-nav" href="contact.html">Contact</a></li>
+              </ul>
+          </div> 
+          </nav>
+        </section>
+<!-- Nav Bar Ends -->
+        <header>  
+                  <div class="showcase">
+                    <!-- Showcase -->
+                    <div class="showcase-content">
+                        <h1 class="l-heading"> <span class="primary-heading">Reach</span> Out For Us!</h1>
+                        <a class="btn btn-success abt-btn" href="#email-contact"> Email Us</a>
+                        <a class="btn btn-success abt-btn" href="#call-contact"> Call Us</a>
+                    </div>
+                  </div>
+        </header>
+        </div>
+    <div class="middle-container">
+        <div class="email-map">
+            
+              <div class="address-heading">
+                <h1>Find Us Below</h1>
+              </div>
+              <div class="Address-map">
+              <div class="contact-details">
+                <div class="headquarter">
+                  <h3>Our Headquater</h3>
+                  <p>Our Head quaters are in Hyderabad, India</p>
+                  <ul>
+                    <li class="list-group-item">Street No. 2</li>
+                    <li class="list-group-item">5th Avenue, Hyderabad, 500032</li>
+                  </ul>
+                </div>
+                <div class="ring-fax">
+                  <h3>Ring/Fax Us</h3>
+                  <p>Please reach out on below numbers we will be happy to help</p>
+                  <ul>
+                    <li class="list-group-item">+91 1234567890</li>
+                    <li class="list-group-item"><span> <strong>Fax: </strong></span> +91 0987654321</li>
+                  </ul>
+                </div>
+                <div class="email">
+                  <h3>Email Us & Callback</h3>
+                  <p>You can also get in touch with us over email or request a call back</p>
+                  <ul>
+                    <li class="list-group-item"><button type="button" id="email-contact" class="btn btn-dark" data-toggle="modal" data-target="#email-contact-form">
+                      Send Email
+                    </button>
+                    <button type="button" id="call-contact" class="btn btn-dark" data-toggle="modal" data-target="#call-contact-form">
+                      Call Us
+                    </button></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="contact-map">
+                <div class="col-md-6 googleMap">
+                  <div id="map-container-google-8" class="z-depth-1-half map-container-5">
+                    <iframe src="https://maps.google.com/maps?q=Hyderabad&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                      frameborder="0" style="border:0" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- Address map ends -->
+          <!-- Email Message starts   -->
+            <!-- Message field starts -->
+            <div class="row message-row">
+              <div class="message-col col-md-6" style="text-align: right;">
+
+                <!-- Modal -->
+                <div class="modal fade" id="email-contact-form" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Send An Email</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                          <form style="text-align: left;">
+                            <div class="form-group">
+                              <label for="exampleFormControlInput1-email">Email address</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1-email" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlInput2-email">Name</label>
+                              <input type="text" class="form-control" id="exampleFormControlInput2-email" placeholder="Full Name">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlInput3-email">Subject</label>
+                              <input type="text" class="form-control" id="exampleFormControlInput3-email" placeholder="Subject">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlTextarea1-email">Message</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1-email" rows="5" placeholder="Type your message here"></textarea>
+                            </div>
+                          </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="message-col col-md-6">
+                <!-- Modal -->
+                <div class="modal fade" id="call-contact-form" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Give Us A Call</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="form-group">
+                            <label for="exampleFormControlInput2-Feedback">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput2-Feedback" placeholder="Full Name">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlInput3-Feedback">Heading</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput3-Feedback" placeholder="Heading">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlTextarea1-Feedback">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1-Feedback" rows="5" placeholder="Type your message here"></textarea>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Message field starts -->
+            <!-- Email Message starts -->
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="bottom-container menu-footer">
+        <footer class="main-footer">
+          <p class="social"><i class="fab fa-twitter footer-icon social-icon"></i> <i class="fab fa-facebook-f footer-icon social-icon"></i> <i class="fab fa-instagram footer-icon social-icon"></i> <i class="fas fa-envelope-square social-icon"></i></p>
+         <p>Rakesh Sahu &copy; 2019 All Rights Reserved</p>
+        </footer>        
+    </div>
+</div> 
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="script.js"></script>     
+</body>
+</html>
